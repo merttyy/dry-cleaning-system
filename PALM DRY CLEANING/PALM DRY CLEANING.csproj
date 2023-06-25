@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30AC9E1E-DE31-42B3-981D-B1A9661DAB4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PALM_DRY_CLEANING</RootNamespace>
+    <AssemblyName>PALM DRY CLEANING</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MusteriArayuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriArayuz.Designer.cs">
+      <DependentUpon>MusteriArayuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriKayit.Designer.cs">
+      <DependentUpon>MusteriKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MüsteriGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MüsteriGirisi.Designer.cs">
+      <DependentUpon>MüsteriGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelArayuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelArayuz.Designer.cs">
+      <DependentUpon>PersonelArayuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelBilgi.Designer.cs">
+      <DependentUpon>PersonelBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelGirisi.Designer.cs">
+      <DependentUpon>PersonelGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiparisEkleme.Designer.cs">
+      <DependentUpon>SiparisEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemKayitlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemKayitlari.Designer.cs">
+      <DependentUpon>SistemKayitlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiArayuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoneticiArayuz.Designer.cs">
+      <DependentUpon>YoneticiArayuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoneticiGiris.Designer.cs">
+      <DependentUpon>YoneticiGiris.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MusteriArayuz.resx">
+      <DependentUpon>MusteriArayuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriKayit.resx">
+      <DependentUpon>MusteriKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MüsteriGirisi.resx">
+      <DependentUpon>MüsteriGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelArayuz.resx">
+      <DependentUpon>PersonelArayuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelBilgi.resx">
+      <DependentUpon>PersonelBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelGirisi.resx">
+      <DependentUpon>PersonelGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiparisEkleme.resx">
+      <DependentUpon>SiparisEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SistemKayitlari.resx">
+      <DependentUpon>SistemKayitlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiArayuz.resx">
+      <DependentUpon>YoneticiArayuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiGiris.resx">
+      <DependentUpon>YoneticiGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

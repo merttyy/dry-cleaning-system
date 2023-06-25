@@ -1,0 +1,20 @@
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\bin\Debug\PALM DRY CLEANING.exe.config
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\bin\Debug\PALM DRY CLEANING.exe
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\bin\Debug\PALM DRY CLEANING.pdb
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM DRY CLEANING.csproj.AssemblyReference.cache
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.Properties.Resources.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM DRY CLEANING.csproj.GenerateResource.cache
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM DRY CLEANING.csproj.CoreCompileInputs.cache
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM DRY CLEANING.exe
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM DRY CLEANING.pdb
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.Giris.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.YoneticiGiris.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.YoneticiArayuz.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.SiparisEkleme.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.PersonelGirisi.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.PersonelArayuz.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.PersonelBilgi.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.SistemKayitlari.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.MüsteriGirisi.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.MusteriKayit.resources
+C:\Users\Mert\source\repos\PALM DRY CLEANING\PALM DRY CLEANING\obj\Debug\PALM_DRY_CLEANING.MusteriArayuz.resources
